@@ -1,8 +1,8 @@
 <template>
   <div id="home">
     <nav-bar class="home-nav"><div slot="center">购物街</div></nav-bar>
-    <home-swiper :banners = 'banners'></home-swiper>
-    <recommend-view :recommends='recommends'></recommend-view>
+    <home-swiper :banners = 'banners'/>
+    <recommend-view :recommends='recommends'/>
   </div>
 </template>
 
